@@ -1,6 +1,7 @@
 # Calculator
+This simple calculator app.
 
-# Build
+## Build
 
 To build `./gradlew build` this will produce executable jar file in `build/libs` directory.
 
