@@ -1,0 +1,24 @@
+
+
+plugins {
+    id 'java'
+    id "org.openjfx.javafxplugin" version "0.0.8"
+    id 'application' //applies the java and distribution plugins implicitly
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "11"
+    modules = [ 'javafx.controls' ]
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+application {
+    mainClassName = 'CalculatorApp.App'
+}
